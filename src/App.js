@@ -1,10 +1,10 @@
-import './App.css';
-import Header from './components/header';
+import './main.scss';
+import Jumbo from './components/Jumbo';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Jumbo />
     </div>
   );
 }
