@@ -1,0 +1,18 @@
+.jumbo-container {
+    background: rgb(0, 13, 83);
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    // padding: 50vh 0;
+
+    .jumbo-content {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+}
