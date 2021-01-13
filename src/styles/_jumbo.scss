@@ -2,12 +2,13 @@
     background: rgb(0, 13, 83);
     color: white;
     position: relative;
-    width: 100%;
     height: 100vh;
     text-align: center;
-    // padding: 50vh 0;
 
     .jumbo-content {
+        font-family: 'Playfair Display SC', serif;
+        letter-spacing: 0.3em;
+        font-size: 4.5rem;
         margin: 0;
         position: absolute;
         top: 50%;
