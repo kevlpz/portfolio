@@ -1,10 +1,10 @@
 import './main.scss';
-import Jumbo from './components/Jumbo';
+import Summary from './components/Summary'
 
 function App() {
   return (
     <div className="App">
-      <Jumbo />
+      <Summary />
     </div>
   );
 }
