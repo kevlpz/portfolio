@@ -1,6 +1,24 @@
 .projects {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+        font-family: $title-font;
+        font-size: 2rem;
+        text-transform: uppercase;
+        border-bottom: 4px solid #525e65;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+        width: 250px;
+        text-align: center;
+
+        // &:after {
+        //     background-color: #525e65;
+        //     height: 4px;
+        //     width: 300px;
+        // }
+    }
 
     .project-card {
         width: 90%;
@@ -19,7 +37,7 @@
             top: 50%;
             left: 50%;
             text-shadow: 0 0 3px black, 0 0 5px black;
-            font-family: 'Titillium Web', sans-serif;
+            font-family: $content-font;
             font-size: 3rem;
             text-align: center;
             display: block;

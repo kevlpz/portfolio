@@ -15,6 +15,7 @@ const Projects = () => {
 
     return (
         <div className="projects">
+            <h3>Projects</h3>
             <ProjectCard info={info.wsky} />
         </div>
     )
