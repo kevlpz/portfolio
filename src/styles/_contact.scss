@@ -35,11 +35,18 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            transition: 0.3s;
+            color: black;
 
             span {
                 line-height: 0;
-                color: black;
                 font-size: 2rem;
+            }
+
+            &:hover {
+                cursor: pointer;
+                background: #222733;
+                color: white;
             }
         }
     }
