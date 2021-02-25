@@ -1,0 +1,46 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+    height: 300px;
+
+    h3 {
+        font-family: $title-font;
+        font-size: 2rem;
+        text-transform: uppercase;
+        border-bottom: 4px solid #525e65;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+        width: 250px;
+        text-align: center;
+    }
+
+    span {
+        font-family: $content-font;
+        font-size: 1.7rem;
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: space-between;
+        width: 120px;
+
+        .social-media-icon-container {
+            background: #DBE8D4;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            span {
+                line-height: 0;
+                color: black;
+                font-size: 2rem;
+            }
+        }
+    }
+}
