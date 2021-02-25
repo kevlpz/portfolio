@@ -1,10 +1,21 @@
 import ProjectCard from './ProjectCard'
-import wsky from '../assets/wsky.png'
+import wskyImg from '../assets/wsky.png'
 
 const Projects = () => {
+    const info = {
+        wsky: {
+            id: 1,
+            description: 'wsky: E-commerce Application',
+            img: wskyImg,
+            bullets: [
+                ''
+            ]
+        }
+    }
+
     return (
         <div className="projects">
-            <ProjectCard img={wsky} />
+            <ProjectCard info={info.wsky} />
         </div>
     )
 }

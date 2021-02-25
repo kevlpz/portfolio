@@ -1,0 +1,45 @@
+.projects {
+    display: flex;
+    justify-content: space-around;
+
+    .project-card {
+        width: 90%;
+        position: relative;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+        img {
+            filter: brightness(50%);
+            width: 100%;
+            transition: 0.3s;
+        }
+
+        span {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+            text-shadow: 0 0 3px black, 0 0 5px black;
+            font-family: 'Titillium Web', sans-serif;
+            font-size: 3rem;
+            text-align: center;
+            display: block;
+            transition: 0.3s;
+        }
+
+        @media (min-width: 500px) {
+            width: 460px;
+        }
+
+        &:hover {
+            cursor: pointer;
+
+            img {
+                filter: none;
+            }
+
+            span {
+                opacity: 0;
+            }
+        }
+    }
+}
