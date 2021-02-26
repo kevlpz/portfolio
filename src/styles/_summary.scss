@@ -9,15 +9,17 @@
         font-family: $title-font;
         margin: 20px;
         font-size: 9vw;
+        font-weight: 300;
         letter-spacing: 0.7rem;
         text-transform: uppercase;
     }
 
     h2 {
         margin: 0 20px;
-        letter-spacing: 0.7rem;
+        letter-spacing: 0.4rem;
         font-family: $title-font;
         font-size: 4vw;
+        font-weight: 300;
     }
 
     p {

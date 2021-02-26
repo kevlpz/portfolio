@@ -18,17 +18,17 @@ const ProjectCard = ({ info }) => {
                 <p>{summary}</p>
                 <ul>
                     {
-                        bullets.map(bullet => <li>{bullet}</li>)
+                        bullets.map((bullet, i) => <li key={i}>{bullet}</li>)
                     }
                 </ul>
                 <div className="modal-buttons">
-                    <a href="https://github.com/kevlpz/wsky" target="_blank">
+                    <a href="https://github.com/kevlpz/wsky" target="_blank" rel="noreferrer">
                         <button>View front-end code</button>
                     </a>
-                    <a href="https://github.com/kevlpz/wsky-be" target="_blank">
+                    <a href="https://github.com/kevlpz/wsky-be" target="_blank" rel="noreferrer">
                         <button>View back-end code</button>
                     </a>
-                    <a href="https://wsky-fe.herokuapp.com/" target="_blank">
+                    <a href="https://wsky-fe.herokuapp.com/" target="_blank" rel="noreferrer">
                         <button>Visit site</button>
                     </a>
                 </div>
