@@ -54,3 +54,37 @@
         }
     }
 }
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2e3445c2;
+}
+
+.modal-content {
+    margin: 0 auto;
+    position: absolute;
+    width: 80%;
+    max-width: 800px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background: $secondary;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+
+    img {
+        width: 99%;
+        border: 1px solid black;
+    }
+
+    // @media (min-width: 500px) {
+    //     width: 600px;
+    // }
+}

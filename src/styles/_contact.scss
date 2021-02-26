@@ -28,7 +28,7 @@
         width: 120px;
 
         .social-media-icon-container {
-            background: #DBE8D4;
+            background: $tertiary;
             height: 50px;
             width: 50px;
             border-radius: 50%;
@@ -45,7 +45,7 @@
 
             &:hover {
                 cursor: pointer;
-                background: #222733;
+                background: $secondary;
                 color: white;
             }
         }

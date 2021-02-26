@@ -4,7 +4,6 @@ import wskyImg from '../assets/wsky.png'
 const Projects = () => {
     const info = {
         wsky: {
-            id: 1,
             description: 'wsky: E-commerce Application',
             img: wskyImg,
             bullets: [
