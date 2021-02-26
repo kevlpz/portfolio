@@ -69,6 +69,7 @@
     margin: 0 auto;
     position: absolute;
     width: 80%;
+    height: 80vh;
     max-width: 800px;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -80,6 +81,10 @@
     outline: none;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+
+    @media (min-width: 500px) {
+        height: auto;
+    }
 
     img {
         width: 99%;
