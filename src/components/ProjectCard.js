@@ -4,7 +4,7 @@ import Modal from 'react-modal'
 Modal.setAppElement('#root')
 
 const ProjectCard = ({ info }) => {
-    const { img, description } = info
+    const { img, summary, description, bullets } = info
     const [modalIsOpen, setModalIsOpen] = useState(false)
 
     return (
@@ -15,6 +15,12 @@ const ProjectCard = ({ info }) => {
             </div>
             <Modal className="modal-content" overlayClassName="modal-overlay" isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}>
                 <img src={img} alt="wsky website preview" />
+                <p>{summary}</p>
+                <ul>
+                    {
+                        bullets.map(bullet => <li>{bullet}</li>)
+                    }
+                </ul>
             </Modal>
         </>
     )
