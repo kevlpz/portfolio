@@ -2,7 +2,7 @@ import { IoLogoOctocat, IoLogoLinkedin } from "react-icons/io";
 
 const Contact = () => {
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
             <h3>Contact me</h3>
             <span>kevin_lopez@live.com</span>
             <div className="social-media">

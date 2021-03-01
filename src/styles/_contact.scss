@@ -37,7 +37,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            transition: 0.3s;
             color: black;
 
             span {
@@ -47,8 +46,7 @@
 
             &:hover {
                 cursor: pointer;
-                background: $secondary;
-                color: white;
+                background: $quaternary;
             }
         }
     }

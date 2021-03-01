@@ -1,0 +1,33 @@
+nav {
+    height: 50px;
+    background: $quaternary;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 7px 20px rgb(44, 44, 44);
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        height: 100%;
+
+        a {
+            text-decoration: none;
+            color: $primary-font-color;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding: 0 15px;
+            font-family: $content-font;
+            
+            &:hover {
+                background: #5f6d75;
+            }
+        }
+    }
+}
