@@ -14,7 +14,7 @@ const Projects = () => {
                 'RESTful API',
                 'Full CRUD operations',
                 'Database schema built with knex',
-                'SQL database with Postgres'
+                'Postgres database using SQL'
             ]
         }
     }
